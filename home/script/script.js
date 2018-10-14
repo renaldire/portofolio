@@ -26,6 +26,15 @@ function scrolltoSkill()
 
 }
 
+function scrolltoHistory()
+{
+	$('html,body').animate({
+		scrollTop: $("#pnlHistory").offset().top - 60
+	}, 800);
+
+	$('.navBar-content').css('border-top', '3px solid gray');
+}
+
 
 function scrolltoHome()
 

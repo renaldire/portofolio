@@ -321,7 +321,7 @@
     margin: auto;
 }
  .wrap-fb {
-     width: 135px;
+     width: 120px;
      margin: auto;
 }
  .wrap-gmail {
@@ -333,12 +333,31 @@
      background-repeat:no-repeat;
      width: 10000vw;
 }
- .divApps {
+ .divApps,.history {
      width: 101vw;
      text-align: center;
      background-color: antiquewhite;
      padding-top: 25px;
      height: calc(100vh - 63px);
+}
+.history
+{
+    padding-top: 0px;
+    background-image: url('../page/work.jpg');
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     height: calc(101vh - 113px);
+     padding-bottom: 50px;
+}
+.dim-history
+{
+    width:100%;
+     height:100%;
+     background-color:rgba(100,100,100,0.75);
+     z-index:-99;
+    padding-top: 25px;
+     padding-bottom: 25px;
 }
  .appList {
      width: 101vw;
@@ -513,6 +532,28 @@
 {
 	color: orange;
 }
+.white-circle
+{
+    width: 30px;
+    height: 30px;
+    background-color:white;
+    border-radius: 50px;
+    margin: auto;
+}
+.white-rect
+{
+    width: 15px;
+    height: 50px;
+    background: white;
+    margin: auto;
+}
+.white-box
+{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    float: right;
+}
  @media screen and (max-width: 480px) {
      .divProfile {
          background-image:none;
@@ -541,6 +582,8 @@
     }
      li {
          margin-right: 8px;
+         font-size: 13px;
+        padding-top: 4px;
     }
      .wrap-detail {
          width: 300px;

@@ -30,6 +30,7 @@
                <li onclick="scrolltoContact()">Contact</li>
                <li onclick="scrolltoApps()" id="liApps">Apps</li>
                <li onclick="scrolltoSkill()">Skills</li>
+               <li onclick="scrolltoHistory()">History</li>
                <li onclick="scrolltoHome()">Home</li>
             </ul>
          </div>
@@ -49,6 +50,9 @@
 		</div>
          <div class="container divProfile">
             <?php include "page/profile.php"; ?>
+         </div>
+         <div id="pnlHistory">
+            <?php include "page/history.php"; ?>
          </div>
          <div class="container divSkills" id="pnlSkill">
             <?php include "page/skill.php"; ?>
