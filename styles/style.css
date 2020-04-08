@@ -69,7 +69,7 @@ a[title="Hosted on free web hosting 000webhost.com. Host your own website for FR
 
 .info-wrapper
 {
-	padding-top: 11%;
+	padding-top: 13%;
 }
 
 .photo
@@ -117,6 +117,10 @@ a[title="Hosted on free web hosting 000webhost.com. Host your own website for FR
 	cursor: pointer;
 	background-color: black;
 	color: salmon;
+}
+
+.contact-menu:hover{
+	color: lightgreen !important;
 }
 
 select
@@ -424,6 +428,7 @@ select
 	.panel
 	{
 		font-size: 11px;
+		width: 200px;
 	}
 	.panel-title
 	{
