@@ -40,6 +40,7 @@ a[title="Hosted on free web hosting 000webhost.com. Host your own website for FR
 	padding-top: 30px;
 	padding-bottom: 30px;
 	background-color: black;
+	min-height: 100vh;
 }
 
 .section-1{
@@ -78,7 +79,7 @@ a[title="Hosted on free web hosting 000webhost.com. Host your own website for FR
 	background-color: white;
 	border-radius: 150px;
 	margin: auto;
-	border: 2px solid lightseagreen;
+	border: 5px outset lightseagreen;
 	background-image: url('../assets/profile.jpg');
 }
 
@@ -161,24 +162,24 @@ select
 	font-family: roboto;
 	font-size: 13px;
 	color: lightseagreen;
-	border-radius: 8px;
 }
 
 .panel{
 	background-color: black;
-	background-image: url('../assets/techbox.png');
-	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	width: 280px;
-	padding: 35px;
-	padding-left: 55px;
-	padding-right:55px;
+	width: 30%;
+	border-left: 3px solid lightseagreen;
+}
+
+.panel:hover{
+	border-color: #2196f3;
 }
 
 .box{
 	margin-right: 12px;
 	transition: padding 1s;
 	border: 1px solid lightseagreen;
+	border-radius: 8px;
 }
 
 .box:hover{
