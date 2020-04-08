@@ -1,0 +1,469 @@
+@font-face {
+    font-family: roboto;
+    src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face {
+    font-family: montserrat;
+    src: url('../fonts/Montserrat-Medium.ttf');
+}
+
+button.active.focus, button.active:focus,
+button.focus, button:active.focus, 
+button:active:focus, button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+*
+{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a
+{
+	text-decoration: none;
+}
+
+body,p
+{
+	margin: 0;
+	padding: 0;
+	font-family: roboto;
+}
+
+a[title="Hosted on free web hosting 000webhost.com. Host your own website for FREE."]{
+    display: none !important;
+}
+
+.section{
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: black;
+}
+
+.section-1{
+	color: lightseagreen;
+	min-height: 100vh;
+}
+
+.section-5{
+	min-height: 100vh;
+}
+
+.name{
+	font-size: 30px;
+	font-family: montserrat;
+	margin-top: 5px;
+	text-align: center;
+	color: lightseagreen;
+}
+
+.info{
+	font-family: montserrat;
+	margin-top:5px;
+	text-align: center;
+	color: lightseagreen;
+}
+
+.info-wrapper
+{
+	padding-top: 11%;
+}
+
+.photo
+{
+	width: 150px;
+	height: 150px;
+	background-color: white;
+	border-radius: 150px;
+	margin: auto;
+	border: 2px solid lightseagreen;
+	background-image: url('../assets/profile.jpg');
+}
+
+.has-img,.has-photo
+{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center
+}
+
+.has-photo
+{
+	background-size: cover;
+}
+
+.menu
+{
+	position: fixed;
+}
+
+.menu>button{
+	width: 50px;
+	height: 50px;
+	border: none;
+	background-color: lightseagreen;
+	color: button;
+	border-radius: 100%;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 1px solid transparent;
+}
+
+.menu>button:hover{
+	border: 1px solid lightseagreen;
+	cursor: pointer;
+	background-color: black;
+	color: salmon;
+}
+
+select
+{
+	padding: 10px;
+	border:none;
+	border-radius: 5px;
+	position: absolute;
+	right: 0;
+	margin-right: 1%;
+	margin-top: 1%;
+}
+
+.next,.prev
+{
+	position: absolute;
+	margin-top: 22%;
+	border: none;
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+
+.prev
+{
+	margin-left: 1%;
+}
+
+.next
+{
+	right: 0;
+	margin-right: 1%;
+}
+
+.panel,.box
+{
+	background-color: transparent;
+	width: 70%;
+	padding: 15px;
+	margin: auto;
+	margin-bottom: 12px;
+	font-family: roboto;
+	font-size: 13px;
+	color: lightseagreen;
+	border-radius: 8px;
+}
+
+.panel{
+	background-color: black;
+	background-image: url('../assets/techbox.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 280px;
+	padding: 35px;
+	padding-left: 55px;
+	padding-right:55px;
+}
+
+.box{
+	margin-right: 12px;
+	transition: padding 1s;
+	border: 1px solid lightseagreen;
+}
+
+.box:hover{
+	padding: 20px;
+	border: 1px solid lightseagreen;
+}
+
+.panel-title
+{
+	font-weight: bold;
+	padding: 2px;
+	font-size: 15px;
+	color: lightgray;
+}
+
+.skill-wrapper
+{
+	width: 800px;
+	text-align: center;
+	margin: auto;
+}
+
+.medium
+{
+	background: linear-gradient(to left, gray 65%, #2196f3 35%);
+    background-size: auto;
+	background-size: 200% 100%;
+	transition: background 2s ease;
+}
+
+.great
+{
+	background: linear-gradient(to left, gray 55%, lightseagreen 45%);
+    background-size: auto;
+	background-size: 200% 100%;
+	transition: background 2s ease;
+}
+
+.good
+{
+	background: linear-gradient(to left, gray 75%, salmon 25%);
+    background-size: auto;
+	background-size: 200% 100%;
+	transition: background 2s ease;
+}
+
+.bar
+{
+	margin-top: 10px;
+	height: 15px;
+}
+
+.box
+{
+	width: 150px;
+	display: inline-block;
+	box-shadow: 9px 9px 18px -14px rgba(125,119,119,1);
+}
+
+.btn-down
+{
+	width: 45px;
+	height: 45px;
+	border: none;
+	border-radius: 50px;
+	background-color: lightseagreen;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	border:1px solid transparent;
+	color: black;
+	cursor: pointer;
+}
+
+.app-wrapper
+{
+	padding-top: 13%;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.app-box
+{
+	width: 200px;
+	padding: 5px;
+	background-color: white;
+	font-size: 13px;
+	display: inline-block;
+	margin-bottom: 5px;
+	text-align: right;
+	box-shadow: 9px 9px 18px -14px rgba(125,119,119,1);
+	border: 1px solid lightgray;
+	cursor: pointer;
+}
+
+.app-box:hover{
+	background-color: salmon;
+	color: white;
+}
+
+.app-thumbnail
+{
+	width: 200px;
+	height: 120px;
+	background-color: lightgray;
+	border-bottom: 1px solid lightgray;
+}
+
+.btn
+{
+	padding: 8px;
+	border: none;
+	border-radius: 5px;
+	background-color: #2196f3;
+	color: white;
+	cursor: pointer;
+}
+
+.app-name
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.contact-wrapper
+{
+	color: white;
+	padding-top: 18%;
+}
+
+.dim
+{
+	background-color: rgba(20,20,20,0.5);
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.app-detail-wrapper
+{
+	width: 50%;
+	background-color: white;
+	margin: auto;
+	margin-top: 11%;
+	padding: 5px;
+	text-align: left;
+}
+
+.large-app-photo
+{
+	width: 320px;
+	height: 220px;
+	margin-right: 8px;
+	float: left;
+	border: 1px solid lightgray;
+}
+
+.app-info
+{
+	height: 220px;
+	color: black !important;
+}
+
+.small-app-photo
+{
+	width: 100px;
+	height: 50px;
+	display: inline-block;
+	margin: auto;
+	box-shadow: 9px 9px 18px -14px rgba(125,119,119,1);
+}
+
+.app-detail-control
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+@media screen and (min-width: 1920px) {
+	.info-wrapper
+	{
+		padding-top: 33vh;
+	}
+	.history-wrapper
+	{
+		padding-top: 22vh;
+	}
+	.skill-wrapper
+	{
+		width: 1400px;
+	}
+	.box
+	{
+		width: 300px;
+		margin-bottom: 10px;
+		margin-right: 8px;
+	}
+	.app-wrapper
+	{
+		padding-top: 22vh;
+		width: 40vw;
+	}
+	.contact-wrapper
+	{
+		padding-top: 40vh;
+	}
+	.app-detail-wrapper
+	{
+		margin-top: 32vh;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.info-wrapper
+	{
+		padding-top: 28vh;
+		font-size: 12px;
+	}
+	.history-wrapper
+	{
+		padding-top: 7vh;
+	}
+	.skill-wrapper
+	{
+		width: 320px;
+		padding-left: 10px;
+		padding-right: 10px;
+		text-align: center;
+	}
+	.history-wrapper
+	{
+		padding-top: 12vh;
+	}
+	.panel
+	{
+		font-size: 11px;
+	}
+	.panel-title
+	{
+		font-size: 12px;
+	}
+	.box
+	{
+		width: 100px;
+	}
+	.app-box
+	{
+		width: 120px;
+	}
+	.app-thumbnail
+	{
+		width: 120px;
+		height: 70px;
+	}
+	.app-wrapper
+	{
+		text-align: center;
+		font-size: 15px;
+		padding-top: 12vh;
+	}
+	.contact-wrapper
+	{
+		padding-top: 37vh;
+	}
+	.app-detail-wrapper
+	{
+		width: 320px;
+	}
+	.large-app-photo
+	{
+		width: 320px;
+		margin-right: 0px;
+		float: none;
+	}
+	.app-info
+	{
+		height: auto;
+		margin-top: 5px;
+	}
+}
