@@ -7,6 +7,10 @@
     src: url('../fonts/Montserrat-Medium.ttf');
 }
 
+body{
+	color: lightseagreen;
+}
+
 button.active.focus, button.active:focus,
 button.focus, button:active.focus, 
 button:active:focus, button:focus {
@@ -55,6 +59,24 @@ a[title="Hosted on free web hosting 000webhost.com. Host your own website for FR
 
 .section-5{
 	min-height: 100vh;
+}
+
+.app-container{
+	width: 608px;
+	margin: auto;
+}
+
+.app-box{
+	width: 300px;
+	height: 150px;
+	border: 1px solid lightseagreen;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.app-title{
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .name{
@@ -361,15 +383,6 @@ select
 	{
 		width: 100px;
 	}
-	.app-box
-	{
-		width: 120px;
-	}
-	.app-thumbnail
-	{
-		width: 120px;
-		height: 70px;
-	}
 	.app-wrapper
 	{
 		text-align: center;
@@ -379,20 +392,5 @@ select
 	.contact-wrapper
 	{
 		padding-top: 37vh;
-	}
-	.app-detail-wrapper
-	{
-		width: 320px;
-	}
-	.large-app-photo
-	{
-		width: 320px;
-		margin-right: 0px;
-		float: none;
-	}
-	.app-info
-	{
-		height: auto;
-		margin-top: 5px;
 	}
 }
