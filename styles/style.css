@@ -350,6 +350,13 @@ select
 }
 
 @media screen and (max-width: 480px) {
+	.app-container{
+		width: 300px;
+	}
+	.app-box {
+	    width: 140px;
+	    height: 80px;
+	}
 	.info-wrapper
 	{
 		padding-top: 28vh;
