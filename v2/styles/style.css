@@ -1,0 +1,113 @@
+body,p{
+	margin: 0;
+	padding: 0;
+}
+
+.primary{
+	background-color: #262626;
+}
+
+.text-primary{
+	color:#262626;
+}
+
+.secondary{
+	background-color: white;
+}
+
+.text-secondary{
+	color: white;
+}
+
+.tertiary{
+	background-color: lightseagreen;
+}
+
+.text-tertiary{
+	color: lightseagreen;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('../fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url('../fonts/Montserrat-Medium.ttf');
+}
+
+.nav{
+	font-family: roboto;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+}
+
+.nav-r{
+	width: 100%;
+	height: 44px;
+}
+
+.nav>.menu,.nav>.logo{
+	display: inline-block;
+}
+
+.nav>.menu{
+	float: right;
+	margin-right: 15%;
+}
+
+.nav>.menu>span{
+	padding: 10px;
+	cursor: pointer;
+}
+
+.nav>.menu>span:hover{
+	color: lightseagreen;
+	border-bottom: 5px solid lightseagreen; 
+}
+
+.nav>.logo{
+	margin-left: 10%;
+	cursor: pointer;
+}
+
+.segment{
+	width: 100%;
+	min-height: 100vh;
+}
+
+.banner{
+	width: 100%;
+	height: 500px;
+	background-color: lightgray;
+}
+
+.has-img-contain,.has-img-100{
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.has-img-contain{
+	background-size: contain;
+}
+
+.has-img-100{
+	background-size: 100% 100%;
+}
+
+button{
+	padding: 15px;
+	border:none;
+	border-radius: 5px;
+	font-family: montserrat;
+	cursor: pointer;
+}
+
+.btn-contact-banner{
+	margin-top: 10%;
+	margin-left: 250px;
+}
