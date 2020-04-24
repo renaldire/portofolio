@@ -115,7 +115,7 @@ body,p{
 	margin-bottom: 5px;
 }
 
-.has-img-contain,.has-img-100{
+div[class^='has-img'], div[class*=' has-img']{
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -126,6 +126,18 @@ body,p{
 
 .has-img-100{
 	background-size: 100% 100%;
+}
+
+.has-img-80{
+	background-size: 80% 80%;
+}
+
+.has-img-70{
+	background-size: 70% 70%;
+}
+
+.has-img-60{
+	background-size: 60% 60%;
 }
 
 button{
@@ -162,10 +174,9 @@ button{
 }
 
 .frame{
-	padding: 5px;
 	font-size: 14px;
 	margin-bottom: 10px;
-	background-color: #f1f3f4;
+	border: 1px solid #f1f3f4;
 }
 
 .box-wide{
