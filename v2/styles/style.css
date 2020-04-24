@@ -20,7 +20,7 @@ body,p{
 }
 
 .tertiary{
-	background-color: lightseagreen;
+	background-color: lightseagreen !important;
 }
 
 .text-tertiary{
@@ -211,6 +211,14 @@ button{
 	background-color: white;
 }
 
+.large-photo{
+	background-color: white;
+	width: 300px;
+	height: 300px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
 .skill-wrapper{
 	width: 550px;
 }
@@ -266,4 +274,18 @@ button{
     background: lightseagreen; 
     border-radius: 100px;
     border:1px solid lightseagreen;
+}
+
+.skill-wrapper{
+	width: 938px;
+}
+
+.opacity{
+	opacity: 0.5;
+	/*display: none;*/
+}
+
+.opacity>span{
+	position: absolute;
+	top: calc()
 }
