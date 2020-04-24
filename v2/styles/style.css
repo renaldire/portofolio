@@ -217,6 +217,7 @@ button{
 	height: 300px;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	font-family: montserrat
 }
 
 .skill-wrapper{
@@ -281,11 +282,16 @@ button{
 }
 
 .opacity{
-	opacity: 0.5;
-	/*display: none;*/
+	opacity: 0;
+	transition: opacity 1s ease
 }
 
-.opacity>span{
-	position: absolute;
-	top: calc()
+.opacity>div{
+	padding-top: calc(150px - 9px);
+	z-index: 9;
+	cursor: pointer;
+}
+
+.hover-primary:hover{
+	color: black;
 }
