@@ -212,7 +212,7 @@ button{
 }
 
 .skill-wrapper{
-	width: 350px;
+	width: 550px;
 }
 
 .medium
@@ -251,7 +251,7 @@ button{
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #2196f3; 
+    background: lightseagreen; 
     border-radius: 100px;
     border:1px solid lightseagreen;
 }
@@ -263,7 +263,7 @@ button{
 }
 
 ::-moz-scrollbar-thumb {
-    background: #2196f3; 
+    background: lightseagreen; 
     border-radius: 100px;
     border:1px solid lightseagreen;
 }
