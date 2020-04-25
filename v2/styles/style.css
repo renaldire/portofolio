@@ -102,14 +102,20 @@ body,p{
 	padding-bottom: 10px;
 	font-family: roboto;
 	font-size: 25px;
+	color: white;
 }
 
-.footer>div{
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.contact-address{
 	margin-right: 10px;
 	cursor: pointer;
 }
 
-.footer>span{
+.copyright{
 	font-size: 12px;
 }
 
