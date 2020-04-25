@@ -6,16 +6,25 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
-<body>
-	<div class="nav primary text-secondary">
-		<div class="logo">
-			<b class="text-tertiary">Re</b>naldi
+<body id="home">
+	<div class="nav-wrapper">
+		<div class="nav primary text-secondary">
+			<div class="logo scroll-to" data-element="#home">
+				<b class="text-tertiary">Re</b>naldi
+			</div>
+			<div class="menu">
+				<span class="web-menu scroll-to" data-element="#about"><span>About</span></span>
+				<span class="web-menu scroll-to" data-element="#skill"><span>Skill</span></span>
+				<span class="web-menu scroll-to" data-element="#portofolio"><span>Portofolio</span></span>
+				<span class="web-menu scroll-to" data-element="#contact"><span>Contact</span></span>
+				<span class="hamburger-menu hovered-text"><i class="fa fa-bars"></i></span>
+			</div>
 		</div>
-		<div class="menu">
-			<span>About</span>
-			<span>Skill</span>
-			<span>Portofolio</span>
-			<span>Contact</span>
+		<div class="hamburger-menu-content secondary text-primary align-center">
+			<div class="mobile-menu hovered scroll-to" data-element="#about"><span class="hovered">About</span></div>
+			<div class="mobile-menu hovered scroll-to" data-element="#skill"><span>Skill</span></div>
+			<div class="mobile-menu hovered scroll-to" data-element="#portofolio"><span>Portofolio</span></div>
+			<div class="mobile-menu hovered scroll-to" data-element="#contact"><span>Contact</span></div>
 		</div>
 	</div>
 	<div class="nav-r"></div>
@@ -25,11 +34,11 @@
 			<p class="label"><i class="fa fa-code"></i> Back-End Engineer at Tunaiku</p>
 			<p class="label"><i class="fa fa-graduation-cap"></i> Bina Nusantara University</p>
 			<p class="label"><i class="fa fa-map-pin"></i> Jakarta, Indonesia</p>
-			<button class="primary text-secondary hovered">Contact Me</button>
+			<button class="primary text-secondary hovered scroll-to" data-element="#about">More About Me</button>
 		</div>
 		</center>
 	</div>
-	<div class="about segment segment-odd align-center">
+	<div id="about" class="segment segment-odd align-center">
 		<p class="label">I'd do bunch of code</p>
 		<br>
 		<div class="box secondary inline hovered">
@@ -79,7 +88,7 @@
 			Become a Back-End Engineer at Tunaiku
 		</div>
 	</div>
-	<div class="skill segment align-center">
+	<div id="skill" class="segment align-center">
 		<p class="label">My Skill</p>
 		<br>
 		<div class="skill-wrapper center">
@@ -182,10 +191,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="portofolio segment segment-odd align-center">
+	<div id="portofolio" class="segment segment-odd align-center">
 		<p class="label">My Portofolio</p>
 		<br>
-		<div class="skill-wrapper center">
+		<div class="portofolio-wrapper center">
 			<div class="large-photo inline">
 				<div class="large-photo tertiary opacity">
 					<div class="text-secondary"><span class="hover-primary">re-task</span></div>
@@ -228,12 +237,12 @@
 			</div>
 			<div class="large-photo inline">
 				<div class="large-photo tertiary opacity">
-					<div class="text-secondary"><span class="hover-primary">New-Proposal Skripsi</span></div>
+					<div class="text-secondary"><span class="hover-primary">NewProposal Skripsi</span></div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="footer align-center primary text-secondary">
+	<div id="contact" class="footer align-center primary text-secondary">
 		<div class="inline hovered-text"><i class="fab fa-instagram"></i></div>
 		<div class="inline hovered-text"><i class="fab fa-google"></i></div>
 		<div class="inline hovered-text"><i class="fab fa-facebook"></i></div>
@@ -244,6 +253,8 @@
 </body>
 <script type="text/javascript" src="scripts/jquery1124.js"></script>
 <script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/menu.js"></script>
+<script type="text/javascript" src="scripts/scrollto.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/brands.js" integrity="sha384-GtvEzzhN52RvAD7CnSR7TcPw555abR8NK28tAqa/GgIDk59o0TsaK6FHglLstzCf" crossorigin="anonymous"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/fontawesome.js" integrity="sha384-Ia7KZbX22R7DDSbxNmxHqPQ15ceNzg2U4h5A8dy3K47G2fV1k658BTxXjp7rdhXa" crossorigin="anonymous"></script>
 </html>

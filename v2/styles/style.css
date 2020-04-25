@@ -37,14 +37,18 @@ body,p{
     src: url('../fonts/Montserrat-Medium.ttf');
 }
 
+.nav-wrapper{
+	position: fixed;
+	width: 100%;
+	z-index: 9;
+}
+
 .nav{
 	font-family: roboto;
 	font-size: 14px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	position: fixed;
 	width: 100%;
-	z-index: 9;
 }
 
 .nav-r{
@@ -66,7 +70,16 @@ body,p{
 	cursor: pointer;
 }
 
-.nav>.menu>span:hover{
+.hamburger-menu-content{
+	font-family: roboto;
+}
+
+.mobile-menu{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.web-menu:hover{
 	color: lightseagreen;
 	border-bottom: 5px solid lightseagreen; 
 }
@@ -220,8 +233,8 @@ button{
 	font-family: montserrat
 }
 
-.skill-wrapper{
-	width: 550px;
+.skill-wrapper,.portofolio-wrapper{
+	width: 938px;
 }
 
 .medium
@@ -277,10 +290,6 @@ button{
     border:1px solid lightseagreen;
 }
 
-.skill-wrapper{
-	width: 938px;
-}
-
 .opacity{
 	opacity: 0;
 	transition: opacity 1s ease
@@ -288,10 +297,40 @@ button{
 
 .opacity>div{
 	padding-top: calc(150px - 9px);
-	z-index: 9;
-	cursor: pointer;
 }
 
 .hover-primary:hover{
 	color: black;
+}
+
+.hamburger-menu{
+	display: none;
+}
+
+.hamburger-menu-content{
+	display: none;
+	border-bottom: 2px solid lightseagreen;
+}
+
+@media screen and (max-width: 480px) {
+	.web-menu{
+		display: none;
+	}
+	.hamburger-menu{
+		display: inline;
+	}
+	.skill-wrapper{
+		width: 320px;
+	}
+	.portofolio-wrapper{
+		width: 350px;
+	}
+	.large-photo{
+		width: 150px;
+		height: 150px;
+	}
+	.opacity>div{
+		padding-top: calc(75px - 9px);
+		font-size: 12px;
+	}
 }
