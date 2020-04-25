@@ -318,6 +318,17 @@ button{
 	border-bottom: 2px solid lightseagreen;
 }
 
+#tooltip{
+	position: absolute;
+	background-color: black;
+	color: white;
+	padding:10px;
+	font-family: roboto;
+	border-radius: 10px;
+	font-size: 12px;
+	display: none;
+}
+
 @media screen and (max-width: 480px) {
 	.web-menu{
 		display: none;
