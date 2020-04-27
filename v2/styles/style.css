@@ -319,7 +319,7 @@ button{
 	border-bottom: 2px solid lightseagreen;
 }
 
-#tooltip{
+.tooltip{
 	position: absolute;
 	background-color: black;
 	color: white;
@@ -327,7 +327,14 @@ button{
 	font-family: roboto;
 	border-radius: 10px;
 	font-size: 12px;
-	display: none;
+	margin-top: 50px;
+	margin-left: 40px;
+	transition: 1s opacity ease;
+	opacity: 0;
+}
+
+.has-tooltip:hover .tooltip{
+	opacity: 1;
 }
 
 @media screen and (max-width: 480px) {
