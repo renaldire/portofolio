@@ -362,4 +362,7 @@ button{
 		padding-top: calc(75px - 9px);
 		font-size: 12px;
 	}
+	.menu{
+		margin-right: 8% !important;
+	}
 }
