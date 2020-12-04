@@ -18,11 +18,11 @@ $experiences = array(
 		"desc"=>"Graduated from BINUS University as Bachelor Degree of Computer Science"
 	),
 	array(
-		"year"=>"2019 - Now",
+		"year"=>"2019",
 		"desc"=>"Become a Back-End Engineer at Tunaiku"
 	),
-	// array(
-	// 	"year"=>"2020 - Now",
-	// 	"desc"=>"Become a Medior Back-End Engineer at Tunaiku"
-	// ),
+	array(
+		"year"=>"2020 - Now",
+		"desc"=>"Got a Promotion as Medior Back-End Engineer at Tunaiku"
+	),
 );
