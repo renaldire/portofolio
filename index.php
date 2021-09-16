@@ -35,27 +35,25 @@
 	</div>
 	<div class="nav-r"></div>
 	<div class="banner">
-		<center>
 		<div class="home-wrapper align-center">
-			<p class="label"><i class="fa fa-code"></i> Back-End Engineer at Tunaiku</p>
+			<p class="label"><i class="fa fa-code"></i> Back-End Engineer at Xendit</p>
 			<p class="label"><i class="fa fa-graduation-cap"></i> Bina Nusantara University</p>
 			<p class="label"><i class="fa fa-map-pin"></i> Jakarta, Indonesia</p>
 			<button class="primary text-secondary hovered scroll-to" data-element="#about">More About Me</button>
 		</div>
-		</center>
 	</div>
 	<div id="about" class="segment segment-odd align-center">
 		<p class="label">I'd do bunch of code</p>
 		<br>
-		<div class="box secondary inline hovered">
+		<div class="box secondary inline">
 			<i class="fa fa-mobile-alt"></i><br>
 			Mobile Application
 		</div>
-		<div class="box secondary inline hovered">
+		<div class="box secondary inline">
 			<i class="fa fa-desktop"></i><br>
 			Desktop Application
 		</div>
-		<div class="box secondary inline hovered">
+		<div class="box secondary inline">
 			<i class="fa fa-laptop"></i><br>
 			Web Application
 		</div>
@@ -123,7 +121,7 @@
 		<div class="contact-address inline"><a class="hovered-text" href="https://facebook.com/renaldi.re28" target="_blank"><i class="fab fa-facebook"></i></a></div>
 		<div class="contact-address inline"><a class="hovered-text" href="https://github.com/renaldire" target="_blank"><i class="fab fa-github"></i></a></div>
 		<br>
-		<div class="copyright">© 2020 Renal<b style="color: salmon;">di</b>. All rights reserved.</div>
+		<div class="copyright">© <?php echo date("Y"); ?> Renal<b style="color: salmon;">di</b>. All rights reserved.</div>
 	</div>
 </body>
 <script type="text/javascript" src="scripts/jquery1124.js"></script>

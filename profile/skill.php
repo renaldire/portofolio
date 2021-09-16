@@ -23,7 +23,7 @@ $skills = array(
 		"name"=>"NodeJS",
 		"iconUrl"=>"assets/nodejs.png",
 		"iconSize"=>100,
-		"level"=>"good"
+		"level"=>"medium"
 	),
 	array(
 		"name"=>"PHP",
@@ -125,23 +125,29 @@ $skills = array(
 		"name"=>"PubSub",
 		"iconUrl"=>"assets/pubsub.png",
 		"iconSize"=>60,
-		"level"=>"good"
+		"level"=>"medium"
 	),
 	array(
 		"name"=>"Watermill",
 		"iconUrl"=>"assets/watermil.png",
 		"iconSize"=>60,
-		"level"=>"good"
+		"level"=>"medium"
 	),
 	array(
 		"name"=>"BigQuery",
 		"iconUrl"=>"assets/bigquery.png",
 		"iconSize"=>60,
-		"level"=>"good"
+		"level"=>"great"
 	),
 	array(
 		"name"=>"Elasticsearch",
 		"iconUrl"=>"assets/elastic.png",
+		"iconSize"=>60,
+		"level"=>"good"
+	),
+	array(
+		"name"=>"Rabbit MQ",
+		"iconUrl"=>"assets/mq.png",
 		"iconSize"=>60,
 		"level"=>"good"
 	)

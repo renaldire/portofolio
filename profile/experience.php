@@ -3,15 +3,19 @@
 $experiences = array(
 	array(
 		"year"=>"2016",
-		"desc"=>"Become a Teaching Assistant at BINUS University"
+		"desc"=>"Teaching Assistant at BINUS University"
 	),
 	array(
 		"year"=>"2017",
-		"desc"=>"Got a Promotion as Subject Coordinator"
+		"desc"=>"Promoted as Subject Coordinator"
 	),
 	array(
 		"year"=>"2018",
-		"desc"=>"Got a Promotion as Teaching Assistant Development Officer"
+		"desc"=>"Promoted as Teaching Assistant Development Officer"
+	),
+	array(
+		"year"=>"2018",
+		"desc"=>"Full Stack Engineer Internship at BINUS University"
 	),
 	array(
 		"year"=>"2019",
@@ -19,10 +23,14 @@ $experiences = array(
 	),
 	array(
 		"year"=>"2019",
-		"desc"=>"Become a Back-End Engineer at Tunaiku"
+		"desc"=>"Back-End Engineer at Tunaiku"
 	),
 	array(
-		"year"=>"2020 - Now",
-		"desc"=>"Got a Promotion as Medior Back-End Engineer at Tunaiku"
+		"year"=>"2020",
+		"desc"=>"Promoted as Intermediate level Back-End Engineer at Tunaiku"
+	),
+	array(
+		"year"=>"2021 - Now",
+		"desc"=>"Intermediate Back-End Engineer at Xendit"
 	),
 );
