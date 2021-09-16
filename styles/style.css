@@ -129,8 +129,18 @@ a{
 
 .banner{
 	width: 100%;
+  	position: relative;
 	height: 60vh;
 	background: linear-gradient(#262626,lightseagreen,#f2f2f2);
+}
+
+.home-wrapper{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 300px;
 }
 
 .label{
@@ -177,13 +187,6 @@ button{
 
 .align-center{
 	text-align: center;
-}
-
-.home-wrapper{
-	color: white;
-	position: absolute;
-	top: calc(30vh - 30px);
-	left: calc(50% - 136.04px);
 }
 
 .inline{
