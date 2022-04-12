@@ -31,6 +31,6 @@ $experiences = array(
 	),
 	array(
 		"year"=>"2021 - Now",
-		"desc"=>"Intermediate Back-End Engineer at Xendit"
+		"desc"=>"Software Engineer at Xendit"
 	),
 );

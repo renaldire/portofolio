@@ -36,7 +36,7 @@
 	<div class="nav-r"></div>
 	<div class="banner">
 		<div class="home-wrapper align-center">
-			<p class="label"><i class="fa fa-code"></i> Back-End Engineer at Xendit</p>
+			<p class="label"><i class="fa fa-code"></i> Software Engineer at Xendit</p>
 			<p class="label"><i class="fa fa-graduation-cap"></i> Bina Nusantara University</p>
 			<p class="label"><i class="fa fa-map-pin"></i> Jakarta, Indonesia</p>
 			<button class="primary text-secondary hovered scroll-to" data-element="#about">More About Me</button>
