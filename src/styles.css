@@ -55,7 +55,7 @@ button { color: inherit; }
 .location-line i { width: 3px; height: 3px; border-radius: 50%; background: #9297a2; }
 .availability-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 3px #e3f7e9; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 35px; }
-.button { min-height: 54px; display: inline-flex; align-items: center; justify-content: center; gap: 24px; padding: 0 22px; border: 1px solid; border-radius: 4px; font-size: 15px; font-weight: 700; transition: transform .18s ease, box-shadow .18s ease, background .18s ease; }
+.button { position: relative; min-height: 54px; display: inline-flex; align-items: center; justify-content: center; gap: 24px; padding: 0 22px; border: 1px solid; border-radius: 4px; font-size: 15px; font-weight: 700; transition: transform .18s ease, box-shadow .18s ease, background .18s ease; }
 .button:hover { transform: translateY(-2px); }
 .button-primary { color: #fff; border-color: var(--blue); background: var(--blue); box-shadow: 0 10px 26px rgba(21, 72, 232, .16); }
 .button-primary:hover { background: var(--blue-dark); box-shadow: 0 14px 30px rgba(21, 72, 232, .22); }
@@ -164,7 +164,7 @@ button { color: inherit; }
 
 @media (max-width: 760px) {
   :root { --nav-height: 68px; }
-  .wrap { width: min(100% - 36px, 620px); }
+  .wrap { width: 100%; max-width: 620px; padding-inline: 18px; }
   .topbar { padding-inline: 18px; }
   .brand > span:last-child { display: none; }
   .menu-button { display: flex; }
@@ -177,7 +177,8 @@ button { color: inherit; }
   .hero-intro { font-size: 17px; }
   .code-panel { overflow-x: auto; font-size: 12px; }
   .hero-actions { flex-direction: column; }
-  .button { width: 100%; }
+  .button { width: 100%; padding-inline: 58px; }
+  .button svg { position: absolute; right: 22px; }
   .metrics { grid-template-columns: 1fr; }
   .metric { min-height: 112px; border-right: 0; border-bottom: 1px solid var(--line); }
   .metric:last-child { border-bottom: 0; }
@@ -194,7 +195,7 @@ button { color: inherit; }
   .experience-item { grid-template-columns: 34px 1fr; gap: 13px; }
   .experience-item time, .experience-role, .experience-copy { grid-column: 2; }
   .experience-role { margin-top: -5px; }
-  .about { grid-template-columns: 1fr; padding: 45px 0; }
+  .about { grid-template-columns: 1fr; padding-block: 45px; }
   .skill-block { padding: 0 0 38px; border-right: 0; border-bottom: 1px solid var(--line); }
   .about-copy { padding: 38px 0 0; }
   .footer-inner { grid-template-columns: 1fr; gap: 44px; }

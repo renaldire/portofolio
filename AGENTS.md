@@ -21,3 +21,6 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Prefer a generous reading scale: supporting copy should generally sit at 14–16px.
 - Keep the portfolio voice precise and grounded. Attribute metrics to specific work, avoid implying ownership of entire platforms, and prefer concrete contribution language over broad claims.
 - Include React, Kotlin, Spring Boot, and Flutter in the technology list.
+- On mobile, center hero button labels independently and pin their icons to the right so the labels are visually centered.
+- Use a full-width, border-box mobile container with equal 18px horizontal gutters; avoid percentage-minus-width calculations that can shift full-width controls.
+- Preserve the shared mobile horizontal gutters when setting section-specific vertical padding; do not reset them with padding shorthand.
