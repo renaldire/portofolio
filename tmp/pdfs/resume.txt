@@ -1,0 +1,112 @@
+Renaldi
+renaldi.re28@gmail.com | linkedin.com/in/renaldi-re28 | +62 821-8587-4688
+Summary
+Senior Backend Engineer and Engineer Squad Lead with 7+ years of experience building backend systems across fintech,
+payments, and education technology. Experienced in TypeScript, NestJS, Node.js, Go, Vue, PostgreSQL, MongoDB, Redis,
+and event-driven microservices. Proven impact in reducing infrastructure latency by 70%, lowering payment processing
+costs by 30%, leading bank integrations, and coordinating engineering squads for reliable delivery.
+Technical Skills
+Languages: JavaScript, TypeScript, Vue, Go, Java, PHP
+Frameworks: Node.js, Express.js, NestJS, Laravel, Vue.js
+Databases: PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch
+Tools & Infrastructure: Git, Docker, AWS, GCP, RabbitMQ, NSQ, GCP Pub/Sub
+Experience
+Engineer Squad Lead
+Feb. 2025 – Jul 2026
+LittleLives
+Singapore (Remote)
+• Led technical design and delivery of both backend and frontend features across NestJS, Vue, PostgreSQL, and
+MongoDB services, balancing business requirements with maintainable architecture.
+• Reviewed system design, API contracts, and implementation approaches to improve reliability, scalability, and
+delivery quality.
+• Coordinated planning, estimation, prioritization, and sprint readiness with the Product Manager to support
+on-time delivery.
+• Unblocked engineers through technical guidance, decision-making support, and clearer ownership while encouraging
+team autonomy.
+Senior Software Engineer
+Apr. 2024 – Feb. 2025
+LittleLives
+Singapore (Remote)
+• Built and maintained backend microservices for Singapore and global market products using TypeScript, NestJS,
+Vue, PostgreSQL, and MongoDB.
+• Implemented backend logging and diagnostic improvements to strengthen monitoring, debugging, and operational
+visibility.
+• Integrated and supported Singapore-specific third-party services including Singpass and ECDA.
+• Improved backend maintainability by simplifying branching logic and documenting key systems for team knowledge
+sharing.
+• Contributed to frontend tasks using Vue when needed to support end-to-end delivery.
+Senior Software Engineer
+Dec. 2022 – Jan. 2024
+Xendit
+Jakarta (Remote)
+• Led the successful migration of regional infrastructure, resulting in a remarkable 70% reduction in latency and
+significantly improved system performance.
+• Implemented multiple bank direct integrations, leading to a notable 30% cost reduction in payment processing.
+• Developed and implemented an automatic reconciliation system, reducing manual toil and streamlining the
+reconciliation process.
+• Built and maintained micro-services for disbursement and reconciliation using NodeJS and TypeScript, ensuring
+seamless and reliable operations.
+• Mentored and guided junior engineers, fostering their professional growth and development within the organization
+• Established and maintained effective communication channels with bank partners, facilitating seamless
+collaboration and timely issue resolution.
+• Proactively resolved customer problems related to disbursement, ensuring high customer satisfaction and retention
+• Improved documentation processes by creating clear and comprehensive documentation for easy reference and
+knowledge sharing.
+• Refactored legacy services to improve code quality and maintainability.
+• Addressed vulnerability issues, ensuring the security and integrity of the system.
+Software Engineer (Mid Level)
+Oct. 2021 – Dec. 2022
+Xendit
+Jakarta (Remote)
+• Maintained and optimized micro-services for disbursement and reconciliation, utilizing Nodejs and TypeScript,
+resulting in improved system performance and reliability.
+• Established and maintained effective communication channels with bank partners, ensuring smooth collaboration
+and timely issue resolution.
+• Proactively addressed customer problems related to disbursement, providing prompt and satisfactory solutions,
+resulting in increased customer satisfaction and retention.
+• Enhanced the alert system for breaking-flow and unexpected pending disbursements, minimizing potential
+disruptions and ensuring timely processing.
+• Demonstrated a proactive approach to problem-solving and continuous improvement, actively seeking opportunities
+to enhance system functionality and user experience.
+• Refactored legacy services to improve code quality and maintainability.
+Junior Backend Engineer
+2019 – 2021
+Tunaiku - Amar Bank
+Jakarta
+• Contributed to backend services using Go, GCP Pub/Sub, Redis, PostgreSQL, MongoDB, Elasticsearch, and
+BigQuery.
+• Participated in code reviews, debugging, testing, and cross-functional delivery for lending-related backend systems.
+Projects
+School Management System | TypeScript, NestJS, PostgreSQL, MongoDB
+• Developed and maintained a scalable school management system tailored for Southeast Asian institutions.
+Bank Direct Integration | Node.js, TypeScript
+• Maintained direct bank integrations for Indonesia and the Philippines to support regional payment operations.
+Maintaining micro-services for disbursement and reconciliation | TypeScript, PostgreSQL, MongoDB, Redis
+• Maintained and enhanced microservices handling disbursement and reconciliation to ensure reliable disbursement.
+• Ensured the reusability of services across multiple regions.
+Validator v10 Wrapper Library | Go
+• Built a reusable Go library to simplify and standardize data validation logic using the Validator v10 package.
+Customer Loyalty Point Systems | Go, PostgreSQL
+• Developed backend services to manage, track, and redeem customer loyalty points.
+Automatic Referral Engagement Systems | Go, PostgreSQL
+• Designed and implemented an automated workflow that sends targeted emails to boost user engagement and
+retention.
+Affiliate Incentive Calculation Systems | Go, PostgreSQL
+• Engineered a backend service to calculate incentives for affiliate partners based on dynamic performance metrics
+and business rules.
+Data Extraction from Perfios and ID Card | Go, Google Cloud Vision
+• Created an extraction service integrating Google Cloud Vision to parse financial and ID documents, streamlining
+user onboarding and verification.
+Affiliate Management Systems | Go, PostgreSQL, Redis
+• Built a system to onboard, track, and manage affiliate partners, including reporting features for performance
+monitoring.
+Medium for Validator V10 | bit.ly/go-validator-10
+• Authored a technical blog post demonstrating usage patterns and implementation details of the Validator v10
+wrapper library.
+Education
+Bina Nusantara University
+Jakarta, Indonesia
+Bachelor of Computer Science
+2015 – 2019
+GPA : 3.74/4.00
+
