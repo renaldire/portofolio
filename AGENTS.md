@@ -24,3 +24,4 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - On mobile, center hero button labels independently and pin their icons to the right so the labels are visually centered.
 - Use a full-width, border-box mobile container with equal 18px horizontal gutters; avoid percentage-minus-width calculations that can shift full-width controls.
 - Preserve the shared mobile horizontal gutters when setting section-specific vertical padding; do not reset them with padding shorthand.
+- GitHub Pages target: `https://renaldire.github.io/portofolio/`, deployed from `master` with the repository workflow.

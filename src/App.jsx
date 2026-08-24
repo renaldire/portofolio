@@ -123,7 +123,7 @@ function Hero() {
         </div>
         <div className="hero-actions">
           <a className="button button-primary" href="#work">View selected work <ArrowRight size={18} weight="bold" /></a>
-          <a className="button button-secondary" href="/Renaldi-Resume.pdf" download>Download résumé <DownloadSimple size={18} weight="bold" /></a>
+          <a className="button button-secondary" href={`${import.meta.env.BASE_URL}Renaldi-Resume.pdf`} download>Download résumé <DownloadSimple size={18} weight="bold" /></a>
         </div>
       </div>
       <div className="code-panel" aria-label="Backend engineering principles expressed as code">
