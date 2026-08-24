@@ -1,5 +1,5 @@
 import {
-  ArrowRight, CalendarBlank, Check, Copy, EnvelopeSimple,
+  ArrowRight, Check, Copy, EnvelopeSimple,
   GithubLogo, LinkedinLogo, MapPin, WarningCircle,
 } from "@phosphor-icons/react";
 import { profile } from "../data/portfolio";
@@ -17,7 +17,6 @@ export function Contact() {
         <div className="footer-contact">
           <div className="contact-row"><EnvelopeSimple size={21} aria-hidden="true" /><a href={`mailto:${profile.email}`}>{profile.email}</a></div>
           <div className="contact-row"><MapPin size={21} aria-hidden="true" /><span>{profile.location} ({profile.timezone})</span></div>
-          <div className="contact-row"><CalendarBlank size={21} aria-hidden="true" /><span>Available for remote opportunities</span></div>
           <div className="contact-actions">
             <button type="button" onClick={() => void copy(profile.email)}>
               {status === "copied" ? <Check size={18} aria-hidden="true" /> : status === "error" ? <WarningCircle size={18} aria-hidden="true" /> : <Copy size={18} aria-hidden="true" />}
@@ -31,7 +30,7 @@ export function Contact() {
           </div>
         </div>
       </div>
-      <div className="footer-base wrap"><Brand compact /><span>© 2026 Renaldi. Built for clarity.</span><span>Updated August 22, 2026</span></div>
+      <div className="footer-base wrap"><Brand compact /><span>© 2026 Renaldi.</span><span>Updated August 22, 2026</span></div>
     </footer>
   );
 }

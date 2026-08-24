@@ -19,6 +19,8 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Keep all selected-work details collapsed until the visitor chooses one.
 - GitHub profile: `https://github.com/renaldire`.
 - Prefer a generous reading scale: supporting copy should generally sit at 14–16px.
+- Present the hero code sample as an interactive language switcher using technologies from the skills list.
+- Keep TypeScript as the default code tab, use the same `// engineer. builder. problem solver.` comment across languages, and preserve conventional code indentation and full-height blank lines.
 - Keep the portfolio voice precise and grounded. Attribute metrics to specific work, avoid implying ownership of entire platforms, and prefer concrete contribution language over broad claims.
 - Include React, Kotlin, Spring Boot, and Flutter in the technology list.
 - On mobile, center hero button labels independently and pin their icons to the right so the labels are visually centered.
