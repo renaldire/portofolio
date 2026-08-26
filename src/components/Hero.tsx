@@ -13,8 +13,8 @@ export function Hero() {
           <span><MapPin size={17} aria-hidden="true" /> {profile.location}</span>
         </div>
         <div className="hero-actions">
-          <a className="button button-primary" href="#work">View selected work <ArrowRight size={18} weight="bold" aria-hidden="true" /></a>
-          <a className="button button-secondary" href={`${import.meta.env.BASE_URL}Renaldi-Resume.pdf`} download>Download résumé <DownloadSimple size={18} weight="bold" aria-hidden="true" /></a>
+          <a className="button button-primary" href="#work" data-goatcounter-click="hero-view-selected-work">View selected work <ArrowRight size={18} weight="bold" aria-hidden="true" /></a>
+          <a className="button button-secondary" href={`${import.meta.env.BASE_URL}Renaldi-Resume.pdf`} download data-goatcounter-click="resume-download">Download résumé <DownloadSimple size={18} weight="bold" aria-hidden="true" /></a>
         </div>
       </div>
       <CodeShowcase />

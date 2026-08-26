@@ -129,6 +129,7 @@ export function CodeShowcase() {
               aria-controls="code-panel"
               aria-selected={isActive}
               tabIndex={isActive ? 0 : -1}
+              data-goatcounter-click={`code-language-${example.id}`}
               onClick={() => setActiveId(example.id)}
               onKeyDown={(event) => handleKeyDown(event, index)}
             >

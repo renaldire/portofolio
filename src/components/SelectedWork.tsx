@@ -26,6 +26,7 @@ export function SelectedWork() {
                 onClick={() => setActiveProjectId(isActive ? null : project.id)}
                 aria-controls={panelId}
                 aria-expanded={isActive}
+                data-goatcounter-click={`project-${project.id}`}
               >
                 <span className="project-number">{project.number}</span>
                 <span className="project-title"><strong>{project.name}</strong><small>{project.description}</small></span>

@@ -15,18 +15,18 @@ export function Contact() {
       <div className="footer-inner wrap">
         <div className="footer-callout"><p className="kicker light">Want to compare notes?</p><h2>Let’s talk about<br />reliable systems.</h2><p>I’m always interested in thoughtful conversations about backend engineering, payments, and product infrastructure.</p></div>
         <div className="footer-contact">
-          <div className="contact-row"><EnvelopeSimple size={21} aria-hidden="true" /><a href={`mailto:${profile.email}`}>{profile.email}</a></div>
+          <div className="contact-row"><EnvelopeSimple size={21} aria-hidden="true" /><a href={`mailto:${profile.email}`} data-goatcounter-click="contact-email-address">{profile.email}</a></div>
           <div className="contact-row"><MapPin size={21} aria-hidden="true" /><span>{profile.location} ({profile.timezone})</span></div>
           <div className="contact-actions">
-            <button type="button" onClick={() => void copy(profile.email)}>
+            <button type="button" onClick={() => void copy(profile.email)} data-goatcounter-click="contact-copy-email">
               {status === "copied" ? <Check size={18} aria-hidden="true" /> : status === "error" ? <WarningCircle size={18} aria-hidden="true" /> : <Copy size={18} aria-hidden="true" />}
               <span aria-live="polite">{copyLabel}</span>
             </button>
-            <a href={`mailto:${profile.email}`}>Get in touch <ArrowRight size={18} aria-hidden="true" /></a>
+            <a href={`mailto:${profile.email}`} data-goatcounter-click="contact-get-in-touch">Get in touch <ArrowRight size={18} aria-hidden="true" /></a>
           </div>
           <div className="social-links">
-            <a href={profile.github} target="_blank" rel="noreferrer" aria-label="Renaldi on GitHub"><GithubLogo size={20} aria-hidden="true" /> GitHub</a>
-            <a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="Renaldi on LinkedIn"><LinkedinLogo size={20} aria-hidden="true" /> LinkedIn</a>
+            <a href={profile.github} target="_blank" rel="noreferrer" aria-label="Renaldi on GitHub" data-goatcounter-click="social-github"><GithubLogo size={20} aria-hidden="true" /> GitHub</a>
+            <a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="Renaldi on LinkedIn" data-goatcounter-click="social-linkedin"><LinkedinLogo size={20} aria-hidden="true" /> LinkedIn</a>
           </div>
         </div>
       </div>

@@ -35,7 +35,7 @@ export function Navigation() {
       </button>
       <nav id={menuId} className={isOpen ? "nav-links is-open" : "nav-links"} aria-label="Primary navigation">
         {navigation.map((item) => <a href={item.href} onClick={close} key={item.href}>{item.label}</a>)}
-        <a className="nav-contact" href="#contact" onClick={close}>Contact <ArrowUpRight size={16} weight="bold" aria-hidden="true" /></a>
+        <a className="nav-contact" href="#contact" onClick={close} data-goatcounter-click="nav-contact">Contact <ArrowUpRight size={16} weight="bold" aria-hidden="true" /></a>
       </nav>
     </header>
   );
